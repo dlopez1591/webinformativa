@@ -7,3 +7,49 @@ body{
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    width: 99.99vw;
+    height: 15vh;
+    background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 30px;
+}
+#logoHeader{
+    width: 90px;
+    height: 80px;
+}
+#listaMenu{
+    list-style: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 20px;
+    margin: 10px;
+}
+.menuItem{
+    width: 220px;
+    height: 15px;
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.itemSeleccionable{
+    text-decoration: none;
+    color: black;
+}
