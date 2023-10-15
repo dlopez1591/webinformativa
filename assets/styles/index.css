@@ -365,8 +365,10 @@ header{
     height: 350px;
     margin-top: 45px;
 }
-
-
+#estadisticas{
+    width: 350px;
+    height: 350px;
+}
 
 
 @media screen and (min-width: 860px) and (max-width: 1300px) {
