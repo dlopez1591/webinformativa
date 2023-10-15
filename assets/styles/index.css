@@ -6,9 +6,10 @@
 body{
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+    width: 99.9vw;
 }
 header{
-    width: 99.99vw;
+    width: 99vw;
     height: 15vh;
     background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
     display: flex;
@@ -257,7 +258,7 @@ header{
     color: white;
 }
 #articuloPrincipal {
-    width: 100vw;
+    width: 99vw;
     height: 70vh;
     display: flex;
     flex-direction: row;
@@ -266,20 +267,45 @@ header{
    
 }
 #iconos{
-    width: 90px;
+    width: 70px;
     height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color:aqua;
 }
 .iconosCustom{
     margin: 10px;
 }
 #articuloUno{
-    width: ;
+    width: 30vw;
+    height: 80vh;
+    background-color: #36688D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
 }
-
+#LogoOneToImprove{
+    width: 400px;
+    margin-top: 15px;
+}
+#tituloArticuloUno{
+    text-align: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+}
+#articuloDos{
+    width: 40vw;
+    height: 800px;
+    background-color: #e51b1b;
+}
 
 
 
