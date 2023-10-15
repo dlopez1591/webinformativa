@@ -119,6 +119,17 @@ header{
     font-size: 14px;
     background-color: rgba(240, 197, 136, 0.74);
 }
+.btnNav:hover{
+    margin: 5px;
+    width: 100px;
+    border-radius: 30px;
+    height: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color:#6FB2ED;
+    border-color: #36688D;
+}
 .btnNavCrear{
     margin: 5px;
     width: 120px;
@@ -128,6 +139,17 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     background-color: rgba(240, 197, 136, 0.74);
+}
+.btnNavCrear:hover{
+    margin: 5px;
+    width: 120px;
+    border-radius: 30px;
+    height: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color:#6FB2ED;
+    border-color: #36688D;
 }
 #botones{
     width: 900px;
@@ -182,6 +204,12 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: #FF904D;
+}
+#recuperarContrasena:hover{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #9e3d00;
 }
 #botonesModal{
     display: flex;
