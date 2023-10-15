@@ -256,3 +256,36 @@ header{
     border-radius: 4px;
     color: white;
 }
+#articuloPrincipal {
+    width: 100vw;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+    position: relative; /* Establece la posición relativa para posicionar el elemento hijo */
+}
+
+#trianguloUno {
+    width: 800px;
+    height: 400px;
+    background: rgb(251, 251, 251);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 240px;
+    left: 10px;
+}
+
+
+#trianguloDos{
+    width: 900px;
+    height: 550px;
+    background: rgb(111,178,237);
+    background: linear-gradient(90deg, rgba(111,178,237,1) 30%, rgba(0,60,255,1) 76%);
+    transform: rotate(45deg);
+    position: absolute; /* Establece la posición absoluta para controlar la ubicación del elemento */
+    top: -160px;
+    right: -180px;
+}
