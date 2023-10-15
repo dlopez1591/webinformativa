@@ -266,52 +266,102 @@ header{
     height: 70vh;
     display: flex;
     flex-direction: row;
-    
-    background-color: #ff5e5e;
    
 }
 #iconos{
-    
     display: flex;
     flex-direction: column;
     flex: 0.1;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    background-color:aqua;
 }
 .iconosCustom{
-    margin: 10px;
+    margin: 15px;
 }
 #articuloUno{
     flex: 0.8;
-    background-color: #36688D;
     display: flex;
     flex-direction: column;
-
     justify-content: flex-start;
     align-items: center;
     margin: 0;
 }
+#parrafoArticuloUno{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
 #LogoOneToImprove{
-    width: 400px;
+    width: 600px;
     margin-top: 15px;
 }
 #tituloArticuloUno{
     text-align: center;
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-size: 45px;
-    margin-left: 25px;
-    margin-right: 25px;
+    font-size: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
     color: black;
 }
 #articuloDos{
-    flex: 1.3;
-    width: 40vw;
-    height: 800px;
-    background-color: #e51b1b;
+    flex: 1.4;
+    background: rgb(111,178,237);
+    background: linear-gradient(90deg, rgba(111,178,237,0) 0%, rgba(0,60,255,1) 76%);
+}
+#organizadorbtnVerMas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+}
+#btnPrueba{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #020202;
+    background: #F0C588;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnPrueba:hover{
+    width: 450px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #020202;
+    background: #ffad39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#linkPrueba{
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+#verMas{
+    text-decoration: none;
+    color: gray;
+    margin-right: 50px;
 }
 
+@media screen and (min-width: 860px) and (max-width: 1300px) {
+    #articuloDos{
+        flex: 1.3;
+        width: 40vw;
+        height: 800px;
+        background-color: #000000;
+    }
+  
 
 
+}
 
