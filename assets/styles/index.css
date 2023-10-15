@@ -307,11 +307,7 @@ header{
     margin-top: 25px;
     color: black;
 }
-#articuloDos{
-    flex: 1.4;
-    background: rgb(111,178,237);
-    background: linear-gradient(90deg, rgba(111,178,237,0) 0%, rgba(0,60,255,1) 76%);
-}
+
 #organizadorbtnVerMas{
     display: flex;
     flex-direction: row;
@@ -353,6 +349,17 @@ header{
     margin-right: 50px;
 }
 
+#articuloDos {
+    flex: 1.4;
+    background: rgb(111, 178, 237);
+    background: linear-gradient(90deg, rgba(111, 178, 237, 0) 0%, rgba(0, 60, 255, 1) 76%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
@@ -362,6 +369,8 @@ header{
     }
   
 
+    
+    /* Define la posición y el tamaño para las demás imágenes de manera similar */
 
 }
 
