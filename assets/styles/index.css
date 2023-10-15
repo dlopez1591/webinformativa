@@ -359,18 +359,47 @@ header{
 #barraMedidora{
     height: 250px;
     margin-left: 70px;
+    overflow: hidden;
+}
+#barraMedidora:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
 }
 #circulo{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     margin-top: 45px;
+}
+#circulo:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
 }
 #estadisticas{
     width: 350px;
     height: 350px;
 }
-
-
+#estadisticas:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#graficas{
+    width: 350px;
+    height: 350px;
+    margin-top: 45px;
+}
+#graficas:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#personalizable{
+    width: 500px;
+    margin-left: 200px;
+}
+#personalizable:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#desiciones{
+    width: 500px;
+}
+#desiciones:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
