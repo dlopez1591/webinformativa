@@ -356,6 +356,15 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
+#barraMedidora{
+    height: 250px;
+    margin-left: 70px;
+}
+#circulo{
+    width: 350px;
+    height: 350px;
+    margin-top: 45px;
+}
 
 
 
