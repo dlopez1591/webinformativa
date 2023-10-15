@@ -258,45 +258,28 @@ header{
 }
 #articuloPrincipal {
     width: 100vw;
-    height: 40vh;
-    background-color: white;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items:flex-start;
+   
+}
+#iconos{
+    width: 90px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    overflow: hidden;
-    position: relative;
+}
+.iconosCustom{
+    margin: 10px;
+}
+#articuloUno{
+    width: ;
 }
 
-#trianguloUno {
-    width: 800px;
-    height: 400px;
-    background: rgb(251, 251, 251);
-    transform: rotate(45deg);
-    position: absolute;
-    top: 240px;
-    left: 10px;
-    
-    overflow: visible;
-}
-#trianguloUno img {
-    transform: rotate(-45deg);
-    margin-top: -50px;
-    margin-left: -120px;
-
-}
-
-#trianguloDos {
-    width: 900px;
-    height: 550px;
-    background: rgb(111, 178, 237);
-    background: linear-gradient(90deg, rgba(111, 178, 237, 1) 30%, rgba(0, 60, 255, 1) 76%);
-    transform: rotate(45deg);
-    position: absolute;
-    top: -160px;
-    right: -130px;
-    z-index: 2; /* Asigna un valor de z-index más alto */
-}
 
 
 
