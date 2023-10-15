@@ -20,7 +20,7 @@ header{
     flex-direction:row;
     justify-content: flex-end;
     align-items: center;
-    width: 650px;
+    width: 750px;
     height: 30px;
     margin: 0;
     padding: 0;
@@ -89,4 +89,142 @@ header{
     justify-content: center;
     align-items: center;
     color: #36688D;
+}
+#busqueda{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+#areaBusqueda{
+    border-style: none;
+    border-color: white;
+    width: 100px;
+    border-radius: 5px;
+}
+#areaBusqueda:focus{
+    outline: none;
+}
+.btnNav{
+    margin: 5px;
+    width: 100px;
+    border-radius: 30px;
+    height: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: rgba(240, 197, 136, 0.74);
+}
+.btnNavCrear{
+    margin: 5px;
+    width: 120px;
+    border-radius: 30px;
+    height: 45px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: rgba(240, 197, 136, 0.74);
+}
+#botones{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.modalContent{
+    width: 450px;
+}
+.formularioLogIn{
+    width: 300px;
+}
+.modalCuerpo{
+    width: 400px;
+    background-color: white;
+}
+#imagenModal{
+    width:120px;
+    height: 100px;
+}
+#tituloModalLogIn{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+.titulosFormulario{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.titulosCampos{
+    width: 300px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.camposFormulario{
+    width: 300px;
+}
+#recuperarContra{
+    margin-top: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+#recuperarContrasena{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #FF904D;
+}
+#botonesModal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 15px;
+}
+.btnIngresar{
+    background-color: #F0C588;
+    border-color: #F0C588;
+    width: 150px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.btnCerrar{
+    background-color: #e51b1b;
+    border-color: #e51b1b;
+    width: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+}
+.btnIngresar:hover{
+    background-color: rgba(255, 144, 77, 0.47);
+    border-color: rgba(255, 144, 77, 0.47);
+    width: 150px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.btnCerrar:hover{
+    background-color: #ff5e5e;
+    border-color: #ff5e5e;
+    width: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
 }

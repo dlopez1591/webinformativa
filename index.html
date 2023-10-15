@@ -31,24 +31,82 @@
                         </span><a href="#" class="itemSeleccionable">Home</a></li>
                     <li class="menuItemQuienes"><span class="material-symbols-outlined">
                         person_raised_hand
-                        </span><a href="" class="itemSeleccionable">Quienes Somos?</a></li>
+                        </span><a href="./contacto.html" class="itemSeleccionable">Quienes Somos?</a></li>
                     <li class="menuItem"><span class="material-symbols-outlined">
                         wysiwyg
-                        </span><a href="" class="itemSeleccionable">Modalidades</a></li>
+                        </span><a href="./modalidades.html" class="itemSeleccionable">Modalidades</a></li>
                     <li class="menuItem"><span class="material-symbols-outlined">
                         credit_card
-                        </span><a href="" class="itemSeleccionable">Licencias</a></li>
+                        </span><a href="./licencias.html" class="itemSeleccionable">Licencias</a></li>
                     <li class="menuItem"><span class="material-symbols-outlined">
                         mail
-                        </span><a href="" class="itemSeleccionable">Contacto</a></li>
+                        </span><a href="./contacto.html" class="itemSeleccionable">Contacto</a></li>
                 </ul>
             </nav>
-            <form action=""></form>
-            <div>
-                <div></div>
-                <div></div>
+            
+                <form action="" id="busqueda">
+                    <span class="material-symbols-outlined">search</span>
+                    <input type="text" name="" placeholder="Búsqueda" id="areaBusqueda"  >
+                </form>
+            
+            
+            <div id="botones">
+                <button type="button" class="btnNav" data-bs-toggle="modal" data-bs-target="#logInModal">Ingresar</button>
+                <button type="button" class="btnNavCrear" data-bs-toggle="modal" data-bs-target="#crearCuentaModal">Crear Cuenta</button>
             </div>
         </header>
+        <!-- Button trigger modal -->
+
+  
+  <!-- Modal para log In-->
+  <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="logInModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class=" modal-content d-flex flex-column d-flex justify-content-center align-items-center">
+        <div class="modal-body d-flex flex-column d-flex justify-content-center align-items-center modalCuerpo">
+            <img src="./assets/images/logoRemove.png" alt="Logo OneToImprove" id="imagenModal">
+            <h1 id="tituloModalLogIn">Ingreso</h1>
+            <form  action="" class="d-flex flex-column d-flex justify-content-center align-items-center formularioLogIn">
+                <div class="titulosCampos">
+                    <h2 class="titulosFormulario">Email</h2>
+                </div>
+                <input type="email" placeholder="Correo electronico" class="camposFormulario">
+                <div class="titulosCampos">
+                    <h2 class="titulosFormulario">Password</h2>
+                </div>
+                <input type="email" placeholder="Contraseña" class="camposFormulario">
+                <div id="recuperarContra">
+                    <a href="./recuperarContra.html" id="recuperarContrasena">Recuperar Contraseña</a>
+                </div>
+                <div id="botonesModal">
+                    <button type="button" class="btnIngresar">Ingresar</button>
+                    <button type="button" class="btnCerrar" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fin del modal para Log In  -->
+  
+  <!-- Modal para Crear Cuenta -->
+  <div class="modal fade" id="crearCuentaModal" tabindex="-1" aria-labelledby="crearCuentaModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Crear Cuenta</h1>
+          
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
     </div>
     <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
