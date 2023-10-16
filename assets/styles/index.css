@@ -407,15 +407,58 @@ header{
 }
 #articuloSecundario{
     width: 99vw;
-    height: 200px;
-    background-color: black;
+    min-height: 60vh;
+    background-color: rgb(145, 255, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tituloArticuloDos{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: #060640;
+}
+#tarjetas{
+    width: 70vw;
+    height: 45vh;
+    background-color: #060640;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjeta{
+    width: 300px;
+    min-height: 350px;
+    background-color: #9e3d00;
+    border-style: solid;
+    border-color: rgb(237, 237, 237);
+    border-width: 1px;
+    box-shadow: 3px 6px 5px rgb(166, 166, 166);
+    border-radius: 5px;
+}
+.containerImagen{
+    width: 290px;
+    height: 100px;
+    background-color: #020202;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagenCards{
+    width: 40px;
+    box-shadow: 3px 6px 5px rgb(46, 43, 43);
 }
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
         width: 40vw;
         height: 800px;
-        background-color: #000000;
+        background-color: #892828;
     }
   
 
