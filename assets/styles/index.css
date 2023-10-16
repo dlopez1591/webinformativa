@@ -473,6 +473,36 @@ header{
     font-size: 15px;
     text-align: justify;
 }
+#articuloTercero{
+    width: 99vw;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tituloArticuloTres{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    color: #060640;
+}
+#contenedorTextoArticuloTres{
+    width: 35vw;
+    height: 30vh;
+    margin-top: 20px;
+}
+#textoArticuloTres{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center
+}
+#imagenMapa{
+    width: 1200px;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
