@@ -408,7 +408,7 @@ header{
 #articuloSecundario{
     width: 99vw;
     min-height: 60vh;
-    background-color: rgb(145, 255, 249);
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -423,7 +423,7 @@ header{
 #tarjetas{
     width: 70vw;
     height: 45vh;
-    background-color: #060640;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -431,8 +431,8 @@ header{
 }
 .tarjeta{
     width: 300px;
-    min-height: 350px;
-    background-color: #9e3d00;
+    min-height: 400px;
+    background-color: white;
     border-style: solid;
     border-color: rgb(237, 237, 237);
     border-width: 1px;
@@ -442,7 +442,7 @@ header{
 .containerImagen{
     width: 290px;
     height: 100px;
-    background-color: #020202;
+    background-color:white;
     margin: 5px;
     display: flex;
     flex-direction: column;
@@ -451,7 +451,27 @@ header{
 }
 .imagenCards{
     width: 40px;
-    box-shadow: 3px 6px 5px rgb(46, 43, 43);
+}
+.contenedorTexto{
+    width: 280px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.tituloCards{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    color: #060640;
+}
+.parrafoCards{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: justify;
 }
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
