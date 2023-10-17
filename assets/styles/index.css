@@ -506,7 +506,16 @@ header{
 #imagenMapa:hover{
     filter: opacity(.5);
 }
-
+#articuloCuarto{
+    width: 99vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #36688D;
+    margin-top: 30px;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
