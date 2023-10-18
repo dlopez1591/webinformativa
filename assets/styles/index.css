@@ -525,6 +525,19 @@ header{
     justify-content: center;
     align-items: center;
 }
+.tarjetaLicencia{
+    width: 350px;
+    height: 500px;
+    background-color: #F0C588;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-style: solid;
+    border-color: rgb(232, 232, 232);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
