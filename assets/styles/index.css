@@ -527,7 +527,7 @@ header{
 }
 .tarjetaLicencia{
     width: 350px;
-    height: 500px;
+    height: 450px;
     background-color: #F0C588;
     margin-top: 5px;
     margin-left: 20px;
@@ -535,8 +535,21 @@ header{
     border-style: solid;
     border-color: rgb(232, 232, 232);
     border-width: 1px;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 25px;
 }
+.fotoTarjetaLicencia{
+    width: 300px;
+    margin-top: 10px;
+}
+.footerLicencias{
+    width: 350px;
+}
+
 
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
