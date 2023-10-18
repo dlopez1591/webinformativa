@@ -559,7 +559,15 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
+.linkTarjetas{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.precioLicencias{
+    color: #FF904D;
+    font-size: 18px;
+}
 
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
