@@ -570,7 +570,22 @@ header{
     color: #FF904D;
     font-size: 18px;
 }
-
+#formularioContacto{
+    width: 99vw;
+    height: 60vh;
+    background-color: #636196;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    width: 1300px;
+    height: 700px;
+    background-color: #36688D;
+    display: flex;
+    flex-direction: row;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
