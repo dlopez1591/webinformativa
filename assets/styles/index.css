@@ -573,7 +573,7 @@ header{
 #formularioContacto{
     width: 99vw;
     height: 60vh;
-    background-color: #636196;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -582,9 +582,10 @@ header{
 #formulario{
     width: 1150px;
     height: 500px;
-    background-color: #36688D;
+    
     display: flex;
     flex-direction: row;
+    
 }
 #formularioContacto{
     width: 575px;
@@ -593,7 +594,7 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: #F0C588;
+    
     padding-top: 75px;
     padding-bottom: 75px;
 }
@@ -605,6 +606,37 @@ header{
     width: 400px;
     height: 35px;
     text-align: center;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+#mensaje{
+    resize: none;
+    width: 400px;
+    height: 130px;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+}
+#btnEnviarFormulario{
+    width: 400px;
+    height: 35px;
+    border-radius: 3px;
+    color: #060640;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F0C588;
+}
+#btnEnviarFormulario:hover{
+    width: 400px;
+    height: 35px;
+    border-radius: 3px;
+    color: #060640;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ffad39;
+}
+#imagenFormulario{
+    width: 500px;
+    margin: 0;
 }
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
