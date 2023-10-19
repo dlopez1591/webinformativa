@@ -638,6 +638,15 @@ header{
     width: 500px;
     margin: 0;
 }
+footer{
+    width: 99vw;
+    height: 40vh;
+    background-color: #6FB2ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
