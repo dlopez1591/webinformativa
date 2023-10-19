@@ -657,6 +657,16 @@ footer{
     justify-content: center;
     align-items: center;
 }
+#primeraMitad{
+    width: 50%;
+    height: 38vh;
+    background-color: #000000;
+}
+#segundaMitad{
+    width: 50%;
+    height: 38vh;
+    background-color: #6FB2ED;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
