@@ -591,9 +591,15 @@ header{
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #F0C588;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#tituloFormulario{
+    color: #060640;
+    font-size: 40px;
 }
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
