@@ -669,6 +669,15 @@ footer{
     display: flex;
     flex-direction: row;
 }
+#contenedorOtito{
+    width: 8vw;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 30px;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
