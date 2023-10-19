@@ -580,11 +580,20 @@ header{
     align-items: center;
 }
 #formulario{
-    width: 1300px;
-    height: 700px;
+    width: 1150px;
+    height: 500px;
     background-color: #36688D;
     display: flex;
     flex-direction: row;
+}
+#formularioContacto{
+    width: 575px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0C588;
 }
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
