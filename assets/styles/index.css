@@ -681,6 +681,15 @@ footer{
 #otitoLateral{
     margin-left: 30px;
 }
+#conenedorLogoTextoIconos{
+    width: 30vw;
+    height: 38vh;
+    background-color: #e51b1b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (min-width: 860px) and (max-width: 1300px) {
     #articuloDos{
         flex: 1.3;
