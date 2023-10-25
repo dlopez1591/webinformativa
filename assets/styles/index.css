@@ -765,6 +765,13 @@ ul {
         justify-content: center;
         align-items: center;
     }
+    #articuloPrincipal {
+        width: 99vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+       
+    }
 }
 
 @media screen and (min-width: 1920px) and (max-width: 2650px) {
