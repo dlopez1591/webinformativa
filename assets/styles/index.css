@@ -717,19 +717,43 @@ footer{
 #menuFalsoFooter{
     height: 300px;
     width: 200px;
-    background-color: #060640;
 }
-@media screen and (min-width: 860px) and (max-width: 1300px) {
-    #articuloDos{
-        flex: 1.3;
-        width: 40vw;
-        height: 800px;
-        background-color: #892828;
-    }
-  
-
+#informacionFalsoFooter{
+    height: 300px;
+    width: 200px;
     
-    /* Define la posición y el tamaño para las demás imágenes de manera similar */
+    margin-right: 200px;
+}
+ul {
+    list-style: none;
+}
+.TitulosFalsFooter{
+    color: white;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.hipervinculosMenuFooter{
+    text-decoration: none;
+    color: white;
+    margin-top: 7px;
+
 
 }
+@media screen and (min-width: 320px) and (max-width: 799px) {
+    
+}
 
+@media screen and (min-width: 800px) and (max-width: 1365px) {
+    
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+    
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2650px) {
+    
+}
