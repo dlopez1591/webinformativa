@@ -727,14 +727,12 @@ ul {
     }
     header {
         width: 99vw;
-        height: 16vh;
+        height: 40vh;
         background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
         display: flex;
         flex-direction: row;
         align-items: center;
-        position: fixed;
-        top: 0;
-        left: 0;
+        position: absolute;
     }
     #menu{
         display: none;
@@ -749,6 +747,10 @@ ul {
     #navegadorResponsive{
         display: contents;
         background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
+        height: 50vh;
+    }
+    .navbar-toggler{
+        background-color: !important;
     }
 }
 
