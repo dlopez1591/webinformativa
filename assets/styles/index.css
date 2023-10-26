@@ -745,7 +745,7 @@ ul {
 }
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
-    #navegadorResponsive{
+    #headerResponsive{    
         display: none;
     }
 }
@@ -771,13 +771,15 @@ ul {
         display: flex;
         flex-direction: row;
     }
-    #navegadorResponsive{
+    #headerResponsive{    
         display: none;
     }
+
 }
 
 @media screen and (min-width: 1920px) and (max-width: 2650px) {
-    #navegadorResponsive{
+    #headerResponsive{    
         display: none;
     }
+    
 }
