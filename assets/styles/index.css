@@ -172,6 +172,9 @@ header {
     flex-direction: row;
     justify-content: flex-end;
 }
+#navegadorResponsive{
+    display: none;
+}
 .modalContent{
     width: 450px;
 }
