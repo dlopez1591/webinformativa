@@ -124,6 +124,9 @@ header {
 #areaBusqueda:focus{
     outline: none;
 }
+#headerResponsive{
+    display: none;
+}
 .btnNav{
     margin: 5px;
     width: 100px;
@@ -726,31 +729,18 @@ ul {
         align-items: center;
     }
     header {
-        width: 99vw;
-        height: 40vh;
-        background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        position: absolute;
+        display: none
     }
     #menu{
         display: none;
     }
-    #logoHeader{
-        width: 70px;
-        height: 60px;
-    }
-    #busqueda{
-        display: none;
-    }
-    #navegadorResponsive{
+    #headerResponsive{
+        width: 99vw !important;
+        
         display: contents;
-        background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
-        height: 50vh;
     }
-    .navbar-toggler{
-        background-color: !important;
+    #cajaHamburgesa{
+        width: 99vw;
     }
 }
 

@@ -25,6 +25,7 @@
     <div id="app">
         <header>
             <img src="./assets/images/logoRemove.png" alt="logo OneToImprove" id="logoHeader">
+            
             <nav id="menu">
                 <ul id="listaMenu">
                     <li class="menuItem"><span class="material-symbols-outlined">
@@ -45,34 +46,7 @@
                 </ul>
             </nav>
             
-            <div id="navegadorResponsive">
-                <div class="navbar navbar-expand-lg">
-                                  <div class="container-fluid">
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                      <span class="navbar-toggler-icon"></span>
-                                    </button>
-                                    <div class="collapse navbar-collapse" id="navbarNav">
-                                      <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                          <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link" href="#">Quienes Somos?</a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link" href="#">Modalidades</a>
-                                        </li>
-                                        <li class="nav-item">
-                                          <a class="nav-link disabled" aria-disabled="true">Licencias</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link disabled" aria-disabled="true">Contacto</a>
-                                          </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                            </div>
-                 </div>
+            
                 <form action="" id="busqueda">
                     <span class="material-symbols-outlined">search</span>
                     <input type="text" name="" placeholder="Búsqueda" id="areaBusqueda"  >
@@ -83,7 +57,48 @@
                 <button type="button" class="btnNav" data-bs-toggle="modal" data-bs-target="#logInModal">Ingresar</button>
                 <button type="button" class="btnNavCrear" data-bs-toggle="modal" data-bs-target="#crearCuentaModal">Crear Cuenta</button>
             </div>
+            
         </header>
+        <div id="headerResponsive">       
+            <div id="cajaHamburgesa">
+                <nav class="navbar navbar-expand-lg bg-primary">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>    
+            
+        </div>
         
         <!-- primer articulo -->
         
