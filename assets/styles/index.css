@@ -727,7 +727,7 @@ ul {
     }
     header {
         width: 99vw;
-        height: 8vh;
+        height: 16vh;
         background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
         display: flex;
         flex-direction: row;
