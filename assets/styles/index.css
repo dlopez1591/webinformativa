@@ -743,6 +743,13 @@ ul {
         width: 70px;
         height: 60px;
     }
+    #busqueda{
+        display: none;
+    }
+    #navegadorResponsive{
+        display: contents;
+        background: linear-gradient(180deg, #6FB2ED 24.96%, rgba(255, 144, 77, 0.47) 80%); 
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
