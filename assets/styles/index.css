@@ -272,11 +272,16 @@ header {
     color: white;
 }
 #articuloPrincipal {
-    width: 99vw;
+    width:99vw;
     height: 70vh;
     display: flex;
     flex-direction: row;
-    margin-top: 84px;
+    justify-content: flex-start;
+    margin-top:8vh;
+    background-image: url(../images/plantillaTriangulos.png);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
    
 }
 #iconos{
@@ -290,12 +295,12 @@ header {
     margin: 15px;
 }
 #articuloUno{
-    flex: 0.8;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin: 0;
+    
 }
 #parrafoArticuloUno{
     font-family: 'IBM Plex Sans', sans-serif;
@@ -360,7 +365,6 @@ header {
 
 #articuloDos {
     flex: 1.4;
-    background-image: url(../images/RectanguloAzul.png);
     display: flex;
     flex-wrap: wrap;
 }
