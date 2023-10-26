@@ -739,6 +739,10 @@ ul {
     #menu{
         display: none;
     }
+    #logoHeader{
+        width: 70px;
+        height: 60px;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
