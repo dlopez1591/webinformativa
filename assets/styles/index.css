@@ -276,7 +276,7 @@ header {
     height: 70vh;
     display: flex;
     flex-direction: row;
-    margin-top: 85px;
+    margin-top: 84px;
    
 }
 #iconos{
@@ -360,8 +360,7 @@ header {
 
 #articuloDos {
     flex: 1.4;
-    background: rgb(111, 178, 237);
-    background: linear-gradient(90deg, rgba(111, 178, 237, 0) 0%, rgba(0, 60, 255, 1) 76%);
+    background-image: url(../images/RectanguloAzul.png);
     display: flex;
     flex-wrap: wrap;
 }
