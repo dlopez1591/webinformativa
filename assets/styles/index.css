@@ -758,8 +758,7 @@ ul {
         flex-direction: column;
         background-image: none;
         margin: 0;
-        width: 99vw;
-        min-height: 100vh;
+        width: 99vw;   
     }
     #iconos{
         display: flex;
@@ -770,7 +769,7 @@ ul {
     }
     #articuloUno{
         width: 99vw;
-        height: 500px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -782,6 +781,28 @@ ul {
     }
     #tituloArticuloUno{
         font-size: 25px;
+    }
+    #parrafoArticuloUno{
+        font-size: 20px;
+    }
+    #organizadorbtnVerMas{
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #btnPrueba{
+        width: 250px;
+    }
+    #btnPrueba:hover{
+        width: 250px;
+    }
+    #linkPrueba{
+        font-size: 18px;
+    }
+    #verMas{
+        display: none;
     }
 
 }
