@@ -759,20 +759,31 @@ ul {
         background-image: none;
         margin: 0;
         width: 99vw;
+        min-height: 100vh;
     }
     #iconos{
         display: flex;
         flex-direction: row;
         justify-content: center;
         width: 99vw;
+        margin-bottom: 0;
     }
     #articuloUno{
         width: 99vw;
+        height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    #LogoOneToImprove{
+        width: 80vw;
+        margin-top: 0;
+    }
+    #tituloArticuloUno{
+        font-size: 25px;
+    }
+
 }
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
