@@ -759,6 +759,8 @@ ul {
         background-image: none;
         margin: 0;
         width: 99vw;   
+        
+        height: 450px;
     }
     #iconos{
         display: flex;
@@ -803,6 +805,15 @@ ul {
     }
     #verMas{
         display: none;
+    }
+    #articuloSecundario{
+        width: 99vw;
+        background-color: #6FB2ED;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
