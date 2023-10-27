@@ -768,9 +768,14 @@ ul {
     }
     #articuloPrincipal {
         width: 99vw;
-        height: 100vh;
+        height: 70vh;
         display: flex;
         flex-direction: row;
+        background-image: url(../images/plantillaTriangulos.png);
+        background-size:75dvw;
+        background-position:initial;
+        
+        
     }
     #headerResponsive{    
         display: none;
