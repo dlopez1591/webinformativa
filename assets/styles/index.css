@@ -175,6 +175,9 @@ header {
     flex-direction: row;
     justify-content: flex-end;
 }
+#botonesMovil{
+    display: none;
+}
 #navegadorResponsive{
     display: none;
 }
@@ -741,7 +744,9 @@ ul {
     }
     #cajaHamburgesa{
         width: 99vw;
-        
+    }
+    #botonesMovil{
+        display: contents;
     }
 }
 
@@ -749,8 +754,13 @@ ul {
     #headerResponsive{    
         display: none;
     }
+    #botonesMovil{
+        display: none;
+    }
 }
 
+
+/* alvaro */
 @media screen and (min-width: 1366px) and (max-width: 1919px) {
     * {
         box-sizing: border-box;
@@ -791,10 +801,16 @@ ul {
     #articuloCuarto{
         margin-top: 90px;
     }
+    #botonesMovil{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1920px) and (max-width: 2650px) {
     #headerResponsive{    
+        display: none;
+    }
+    #botonesMovil{
         display: none;
     }
     
