@@ -815,7 +815,8 @@ ul {
         align-items: center;
     }
     #tituloArticuloDos{
-        font-size: 20px;
+        font-size: 25px;
+        text-align: center;
     }
     #tarjetas{
         width: 80vw;
