@@ -808,8 +808,7 @@ ul {
     }
     #articuloSecundario{
         width: 99vw;
-        background-color: #6FB2ED;
-        height: 1100px;
+        height: 1000px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -820,8 +819,7 @@ ul {
     }
     #tarjetas{
         width: 80vw;
-        height: 1000px;
-        background-color: rgb(158, 4, 4);
+        height: 900px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -829,8 +827,7 @@ ul {
     }
     .tarjeta{
         width: 200px;
-        min-height: 300px;
-        background-color: white;
+        min-height: 250px;
         border-style: solid;
         border-color: rgb(237, 237, 237);
         border-width: 1px;
@@ -839,7 +836,7 @@ ul {
     }
     .containerImagen{
         width: 190px;
-        height: 30px;
+        height: 50px;
         background-color:white;
         margin: 5px;
         display: flex;
@@ -848,11 +845,11 @@ ul {
         align-items: center;
     }
     .imagenCards{
-        width: 30px;
+        width: 40px;
     }
     .contenedorTexto{
         width: 180px;
-        height: 250px;
+        height: 180px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -862,7 +859,7 @@ ul {
     .tituloCards{
         font-family: 'IBM Plex Sans', sans-serif;
         font-family: 'Roboto', sans-serif;
-        font-size: 13px;
+        font-size: 14px;
         color: #060640;
     }
     .parrafoCards{
