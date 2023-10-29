@@ -942,16 +942,21 @@ footer{
     }
     #falsoFooter{
         width: 99vw;
+        height: 900px;
         display: flex;
         flex-direction: column;
     }
     #primeraMitad{
         width: 99vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
     #contenedorOtito{
         display: none;
     }
-    #contenedorLogoTextoIconos{
+    #conenedorLogoTextoIconos{
         width: 99vw;
         display: flex;
         flex-direction: column;
