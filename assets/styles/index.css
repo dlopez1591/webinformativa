@@ -932,15 +932,31 @@ ul {
     #imagenFormulario{
         display: none;
     }
-    #footer{
+footer{
         width: 99vw;
-        height: 600px;
+        height: 1200px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-
+    #falsoFooter{
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+    }
+    #primeraMitad{
+        width: 99vw;
+    }
+    #contenedorOtito{
+        display: none;
+    }
+    #contenedorLogoTextoIconos{
+        width: 99vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
