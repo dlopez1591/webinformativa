@@ -771,7 +771,7 @@ ul {
     }
     #articuloUno{
         width: 99vw;
-        height: 400px;
+        height: 500px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -961,6 +961,15 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+    }
+    #imagenFalsoFooter{
+        width: 80vw;
+    }
+    #textoLogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 }
 
