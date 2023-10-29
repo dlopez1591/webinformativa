@@ -897,7 +897,7 @@ ul {
     }
     #articuloCuarto{
         width: 99vw;
-        height: 1500px;
+        height: 1410px;
         display: flex;
         flex-direction: column;
     }
@@ -914,10 +914,30 @@ ul {
     }
     #formularioContacto{
         width: 99vw;
-        height: 450px;
+        height: 600px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+    }
+    #formulario{
+        width: 99vw;
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #imagenFormulario{
+        display: none;
+    }
+    #footer{
+        width: 99vw;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
     }
 
