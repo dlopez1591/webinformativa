@@ -869,6 +869,15 @@ ul {
         font-size: 10px;
         text-align: justify;
     }
+    #articuloTercero{
+        width: 99vw;
+        height: 700px;
+        background-color: blueviolet;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
