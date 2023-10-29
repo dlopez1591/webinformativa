@@ -934,7 +934,7 @@ ul {
     }
 footer{
         width: 99vw;
-        height: 1200px;
+        height: 400px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -942,9 +942,10 @@ footer{
     }
     #falsoFooter{
         width: 99vw;
-        height: 900px;
+        height: 400px;
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
     }
     #primeraMitad{
         width: 99vw;
@@ -972,13 +973,9 @@ footer{
         text-align: center;
     }
     #segundaMitad{
-        width: 99vw;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
-}
+    
 
 @media screen and (min-width: 800px) and (max-width: 1365px) {
     #headerResponsive{    
