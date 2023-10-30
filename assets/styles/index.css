@@ -1024,6 +1024,7 @@ footer{
     #articuloPrincipal{
         width: 99vw;
         display: flex;
+        height: 450px;
         flex-direction: row;
         justify-content: flex-start;
         background-image: url(../images/plantillaTriangulos.png);
@@ -1044,6 +1045,9 @@ footer{
     }
     #btnPrueba{
         width: 30vw;
+    }
+    #linkPrueba{
+        font-size: 20px;
     }
     #articuloSecundario{
         width: 99vw;
@@ -1077,7 +1081,7 @@ footer{
         display: flex;
         flex-direction: row;
         background-image: url(../images/plantillaTriangulos.png);
-        background-size:75dvw;
+        background-size:99dvw;
         background-position:initial;
     }
     #headerResponsive{    
@@ -1097,6 +1101,7 @@ footer{
     #botonesMovil{
         display: none;
     }
+    
 }
 
 @media screen and (min-width: 1920px) and (max-width: 2650px) {
