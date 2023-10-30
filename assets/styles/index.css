@@ -759,8 +759,7 @@ ul {
         background-image: none;
         margin: 0;
         width: 99vw;   
-        
-        height: 450px;
+        height: 550px;
     }
     #iconos{
         display: flex;
