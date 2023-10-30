@@ -1003,10 +1003,24 @@ footer{
         width: 99vw;
     }
     #menu{
-        width: 40vw
+        width: 35vw
     }
     #listaMenu{
-        width: 38vw;
+        width: 33vw;
+    }
+    .itemSeleccionable{
+        font-size: 10px;
+    }
+    #busqueda{
+        width: 10vw;
+    }
+    #areaBusqueda{
+        width: 8vw;
+    }
+    #botones{
+        width: 35vw;
+        display: flex;
+
     }
 }
 
