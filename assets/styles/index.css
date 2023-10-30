@@ -1033,6 +1033,22 @@ footer{
     #LogoOneToImprove{
         width: 30vw;
     }
+    #organizadorbtnVerMas{
+        width: 50vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #btnPrueba{
+        width: 30vw;
+    }
+    #articuloSecundario{
+        width: 99vw;
+        height: 800px;
+    }
+    #tituloArticuloDos{
+        text-align: center;
+    }
 }
 
 
