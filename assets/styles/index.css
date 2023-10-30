@@ -1027,6 +1027,12 @@ footer{
         flex-direction: row;
         justify-content: flex-start;
     }
+    #articuloUno{
+        width: 50vw;
+    }
+    #LogoOneToImprove{
+        width: 30vw;
+    }
 }
 
 
