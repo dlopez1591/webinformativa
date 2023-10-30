@@ -1020,7 +1020,12 @@ footer{
     #botones{
         width: 35vw;
         display: flex;
-
+    }
+    #articuloPrincipal{
+        width: 99vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 }
 
