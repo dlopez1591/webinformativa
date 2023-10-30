@@ -1026,6 +1026,9 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
+        background-image: url(../images/plantillaTriangulos.png);
+        background-size:99dvw;
+        background-position:initial;
     }
     #articuloUno{
         width: 50vw;
@@ -1076,8 +1079,6 @@ footer{
         background-image: url(../images/plantillaTriangulos.png);
         background-size:75dvw;
         background-position:initial;
-        
-        
     }
     #headerResponsive{    
         display: none;
